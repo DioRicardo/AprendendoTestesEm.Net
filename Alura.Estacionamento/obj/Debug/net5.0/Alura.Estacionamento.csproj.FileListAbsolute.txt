@@ -62,3 +62,4 @@ E:\Cursos\Alura\C#\Testes em .Net\alura.estacionamento\Alura.Estacionamento\obj\
 E:\Cursos\Alura\C#\Testes em .Net\alura.estacionamento\Alura.Estacionamento\obj\Debug\net5.0\Alura.Estacionamento.pdb
 E:\Cursos\Alura\C#\Testes em .Net\alura.estacionamento\Alura.Estacionamento\obj\Debug\net5.0\Alura.Estacionamento.genruntimeconfig.cache
 E:\Cursos\Alura\C#\Testes em .Net\alura.estacionamento\Alura.Estacionamento\obj\Debug\net5.0\ref\Alura.Estacionamento.dll
+E:\Cursos\Alura\C#\Testes em .Net\alura.estacionamento\Alura.Estacionamento\obj\Debug\net5.0\Alura.Estacionamento.sourcelink.json
