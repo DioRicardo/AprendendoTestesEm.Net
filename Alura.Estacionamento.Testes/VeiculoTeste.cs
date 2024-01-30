@@ -100,6 +100,22 @@ namespace Alura.Estacionamento.Testes
             Assert.Equal("O 4° caractere deve ser um hífen", mensagem.Message);
         }
 
+        [Fact]
+        public void TestaMensagemExcecaoUltimosDigitosDaPlacaSaoNumeros()
+        {
+            //Arrange
+            string placa = "ASD-7F47";
+
+            //Act
+            var mensagem = Assert.Throws<System.FormatException>(
+                    () => new Veiculo().Placa = placa
+                );
+
+            //Assert
+            Assert.Equal("Do 5º ao 8º caractere deve-se ter um número!", mensagem.Message);
+
+        }
+
         public void Dispose()
         {
             SaidaConsoleTeste.WriteLine("Dispose invocado.");
